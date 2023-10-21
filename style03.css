@@ -6,14 +6,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;  /* 設置一個淺色背景以與按鈕對比 */
+    background-color: pink;  /* 設置一個淺色背景以與按鈕對比 */
 }
 
 button {
     background-color: #4CAF50;  /* 綠色 */
     border: none;
     color: white;
-    padding: 50px 50px;  /* 減少按鈕的內部填充，使按鈕變小 */
+    padding: 50px 40px;  /* 減少按鈕的內部填充，使按鈕變小 */
     text-decoration: none;
     display: inline-block;  /* 使按鈕並排顯示 */
     font-size: 50px;  /* 增大字體大小 */
@@ -35,14 +35,6 @@ button:hover {
     background-color: #000000;  /* 滑鼠懸停時的顏色 */
     color: red; /* 鼠标悬停时的文字颜色，这里设置为黑色 */
 }
-
-@media (min-width: 768px) {  /* 螢幕寬度大於768px時的樣式 */
-    button {
-        width: 30%;  /* 螢幕寬度大於768px時，按鈕寬度設為30% */
-    }
-}
-
-/* ... 其他的CSS樣式 ... */
 
 .product {
     display: none;
@@ -66,13 +58,16 @@ button:hover {
 }
 
 .small-button {
-    background-color: blue;
-    width: 30%; /* 设置宽度 */
+    padding: 10px 10px; /* 设置按钮的内边距，上下边距为5px，左右边距为10px */
+    background-color: purple;
+    color: yellow;
+    width: 160px; /* 设置宽度 */
     height: 20%; /* 设置高度 */
-    font-size: 50px; /* 设置字体大小 */
+    font-size: 35px; /* 设置字体大小 */
+    white-space: nowrap; /* 防止文本换行 */
 }
 
 .small-button:hover{
-    background-color: purple;
-    color: yellow;
+    background-color: blue;
+    color: white;
 }
