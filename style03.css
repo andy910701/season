@@ -20,7 +20,6 @@ button {
     margin: 5px 20px;
     cursor: pointer;
     border-radius: 12px;  /* 圓角 */
-    transition: background-color 1s;  /* 添加轉場效果 */
     width: 40%;  /* 設置按鈕寬度為螢幕的50% */
     font-family: 標楷體;
 }

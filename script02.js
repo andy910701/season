@@ -117,3 +117,4 @@ resetButton.addEventListener("click", function() {
     products.innerHTML = "";
 });
 
+
