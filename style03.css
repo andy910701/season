@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;  /* 設置一個淺色背景以與按鈕對比 */
+}
+
+button {
+    background-color: #4CAF50;  /* 綠色 */
+    border: none;
+    color: white;
+    padding: 50px 50px;  /* 減少按鈕的內部填充，使按鈕變小 */
+    text-decoration: none;
+    display: inline-block;  /* 使按鈕並排顯示 */
+    font-size: 50px;  /* 增大字體大小 */
+    margin: 5px 20px;
+    cursor: pointer;
+    border-radius: 12px;  /* 圓角 */
+    transition: background-color 1s;  /* 添加轉場效果 */
+    width: 40%;  /* 設置按鈕寬度為螢幕的50% */
+    font-family: 標楷體;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #000000;  /* 滑鼠懸停時的顏色 */
+    color: red; /* 鼠标悬停时的文字颜色，这里设置为黑色 */
+}
+
+@media (min-width: 768px) {  /* 螢幕寬度大於768px時的樣式 */
+    button {
+        width: 30%;  /* 螢幕寬度大於768px時，按鈕寬度設為30% */
+    }
+}
+
+/* ... 其他的CSS樣式 ... */
+
+.product {
+    display: none;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;  /* 設定圖片寬度，可以根據需要調整 */
+    height: 200px; /* 設定圖片高度，可以根據需要調整 */
+    object-fit: cover; /* 確保圖片總是填充整個容器，不拉伸，不變形 */
+    border-radius: 10px; /* 為圖片添加輕微的圓角 */
+    margin-bottom: 10px; /* 設定圖片和文字之間的間距 */
+    padding: 3px; /* 设置10像素的内边距，即边框与图片之间的间距 */
+    border: 3px solid #000000; /* 为图片设置边框 */
+}
+
+.product p {
+    font-family: '標楷體', sans-serif;
+    font-size: 20px;
+    transition: color 0.6s; /* 添加渐变效果，使颜色过渡更平滑 */
+}
+
+.small-button {
+    background-color: blue;
+    width: 30%; /* 设置宽度 */
+    height: 20%; /* 设置高度 */
+    font-size: 50px; /* 设置字体大小 */
+}
+
+.small-button:hover{
+    background-color: purple;
+    color: yellow;
+}

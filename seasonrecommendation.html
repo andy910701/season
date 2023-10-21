@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style03.css">
+    <title>季節產品選擇</title>
+</head>
+<body>
+    <div class="btn-group">
+        <button onclick="displayProducts('spring')" id="springButton">春天</button>
+        <button onclick="displayProducts('summer')" id="summerButton">夏天</button>
+    </div>
+    <div class="btn-group">
+        <button onclick="displayProducts('autumn')" id="autumnButton">秋天</button>
+        <button onclick="displayProducts('winter')" id="winterButton">冬天</button>
+    </div>
+    <h2 id="seasonTitle"></h2>
+    <div id="products" class="product-container"></div>
+    <button id="resetButton" class="small-button">重新選擇</button>
+    <script src="script02.js"></script>
+</body>
+</html>
