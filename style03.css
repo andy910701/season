@@ -31,7 +31,7 @@ button {
     margin-bottom: 15px;
 }
 
-button:hover {
+button:active {
     background-color: #000000;  /* 滑鼠懸停時的顏色 */
     color: red; /* 鼠标悬停时的文字颜色，这里设置为黑色 */
 }
@@ -67,7 +67,7 @@ button:hover {
     white-space: nowrap; /* 防止文本换行 */
 }
 
-.small-button:hover{
-    background-color: blue;
-    color: white;
+.small-button:active {
+    background-color: blue; /* 背景色，例如蓝色 */
+    color: white; /* 文字颜色，例如白色 */
 }
